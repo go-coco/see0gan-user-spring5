@@ -1,0 +1,338 @@
+@charset "UTF-8";
+h2 {margin: 0;}
+input, select {
+	padding: 15px;
+}
+
+input[type="text"] {
+	width: 95%;
+	margin: 10px 0;
+}
+.content_wrap{
+	padding: 60px;
+	min-height: 947px;
+	position: relative;
+}
+.flex_wrap:after, .convenient:after{
+	clear: both;
+	display:table;
+	content: "";
+}
+
+
+.flex_wrap{
+	width:100%;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.flex_wrap>div{
+	float: left;
+}
+.box_form{
+	position: relative;
+	margin: 30px 0;
+}
+
+.box_form>span{
+	display: block;
+}
+.heading{
+	width: 100%;
+	border-bottom : 4px solid #704de4;
+	padding-bottom : 20px;
+	margin: 20px 0 40px;
+	position: relative;
+}
+.heading h3{
+	display: inline-block;
+	font-size: 26px;
+	font-weight: normal;
+	margin : 0;
+}
+.required{
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: #ff3a48;
+	text-align: right;
+	font-size: 16px;
+}
+.required_s{
+	color: #ff3a48;
+	font-size: 20px;
+	margin-left: 5px;
+}
+ul{
+	list-style: none;
+	display: block;
+}
+li{
+	position: relative;
+	float: left;
+}
+.title{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.dayoff_add{
+	text-align: center; 
+	background-color: rgb(217, 217, 217); 
+	padding: 15px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.add_result{
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.col3, .col {
+	width: 31%;
+	display: inline-block;
+	position: relative;
+}
+
+.txt_count{
+	color:#656565;
+	font-size: 14px;
+}
+
+/* 체크박스 스타일 */
+.chkbox_style input[type="checkbox"]{
+	display: none;
+}
+.chkbox_style input+label {
+   	font-size: 18px;
+	margin: 10px;
+    padding: 5px 30px;
+    border-radius: 14px;
+    background-color: #ccc;
+}
+.chkbox_style input:checked+label {
+    background-color: #e4794d;
+	color: #fff;
+}
+
+
+#tbsp_intro2{
+	width: 98%;
+}
+#addTag li{
+	display: block;
+	padding-right: 10px;
+	font-size: 16px;
+}
+.pupl_btn{
+	background-color: #704de4;
+	color: #fff;
+	border: none;
+	display: inline-block;
+	padding: 15px 50px;
+	font-size: 18px;
+}
+.input[type="file"]{
+	border: none;
+}
+#sample4_postcode{
+	width: 72%;
+	margin-right: 10px;
+	
+}
+.phone {
+	width: 100%;
+}
+.tbb_email{
+	display: inline-block;
+}
+.tbb_email>input{
+	width: 290px;
+}
+#tbb_email3{
+	width: 290px;
+}
+#addr_search{
+	display: inline-block;
+}
+#addr_search>a{
+	font-size: 18px;
+	padding: 15px 30px;
+}
+#tbc_addr1{
+	width: 80%;
+}
+.account dl:nth-child(1){
+	width: 16%;
+}
+.account dl:nth-child(2){
+	width: 52%;
+}
+.account dl:nth-child(3){
+	width: 26%;
+}
+.account div,.account dl,.account dd{
+	display: inline-block;
+	margin-left:0;
+}
+.account dd{
+	width: 90%;
+}
+#tbb_acuntnum, #tbb_depositor{
+	width: 96%;
+}
+/* 하단 버튼 */
+.sp_btn_bottom{
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.sp_btn_bottom input{
+	display: inline-block;
+	color: #fff;	
+	width: 49%;
+	height: 60px;
+	/* line-height: 45px; */
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.btn_wrap{
+	margin:0;
+	padding:0;
+}
+.btn_prev{
+	background-color: #4d4d4d;
+}
+.btn_next{
+	background-color: #ff3a48;
+	right:0;
+}
+.btn{
+	background-color: #704de4;
+	padding: 10px 20px;
+	color: #fff;
+	display: inline-block;
+}
+/* 지정휴무 팝업 */
+#dayoff_pop{
+	width: 300px;
+	position: absolute;
+	background-color: #f6f6f6;
+	left: 25%;
+	top: 30%;
+	display: none;
+}
+.pop_header{
+	padding: 10px;
+	background-color: #704de4;
+	color: #fff;
+	border-radius: 8px 8px 0 0;
+}
+.pop_container{
+	padding: 15px;
+	border-radius: 0 0 8px 8px;
+}
+.dayoff_pop_close{
+	cursor: pointer; 
+	font-weight: 900; 
+	right: 10px; 
+	position: absolute; 
+	padding: 0 10px;
+}
+.btn_next_pop{
+	background-color: #ff3a48;
+	color: #fff;
+	text-align: center;
+	/* height: 35px; */
+	/* line-height: 35px; */
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	border:0;
+	cursor: pointer;
+}
+/* 4페이지 */
+#tbc_maintheme, #tbc_mainbizstat{
+	width: 90%;
+}
+.tbc_res_num {
+	width: 90%;
+	margin-right: 10px; 
+}
+.sp_adrs:before{
+	content: "";
+	display: block;
+	clear: both;
+	padding: 20px;
+}
+.refund label{
+	cursor: default; 
+	display: inline-block; 
+	vertical-align: middle; 
+	font-size: 18px;
+	font-weight: bold; 
+	width: 163px; 
+	padding-right: 16px; 
+}
+.refund .select{
+	display: inline-block;
+}
+.refund span{
+	font-size: 16px;
+}
+.txt_guide{
+	color: #704de4;
+	position: absolute;
+	right:0;
+}
+.last{
+	margin-top: 80px;
+}
+@media (max-width: 1180px) {
+	.tbb_email>input, #tbb_email3{
+		width: 190px;
+	}
+	#tbc_addr1{
+		width: 60%;
+	}
+	.account dl:nth-child(1){
+		width: 18%;
+	}
+
+}
+@media (max-width: 767px){
+	.box_form:first-child{
+		margin-bottom:0;
+	}
+	.account dl:nth-child(1n){
+		display: block;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.sp_contents{
+		padding: 30px;
+	}
+	.flex_wrap>div{
+		width: 50%;
+	}
+	/* 지정휴무 팝업 */
+	#dayoff_pop{
+		width: 550px;
+	}
+	.pop_container{
+		padding: 15px 30px;
+	}
+}
+
+@media (max-height: 600px) {
+	.sp_btn_bottom{
+		position: relative;
+	}
+}

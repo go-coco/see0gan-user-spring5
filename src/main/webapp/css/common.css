@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+
+body{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	padding:0;
+	margin: 0;
+	background-color: #f6f6f6;
+}
+
+a, a:link, a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrap{
+	width: 100%;
+	position: relative;
+}
+.content_wrap{
+	width: 88%;
+	margin: 0 auto;
+	min-height: 630px;
+}
+
+/* header */
+.header_wrap{
+	height: 78px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: solid 1px #f6f6f6;
+	/* position: fixed; */
+	top:0;
+	min-width: 900px;
+	
+}
+.header_logo{
+	position: absolute;
+	padding: 16px 30px;
+}
+#logo{
+	color: #333;
+	font-size: 38px;
+	font-weight: 900;
+}
+.search_box{
+	position: relative;
+	margin-left: 250px;
+	padding: 10px 0;
+}
+.icon_serch{
+	position: absolute;
+	margin: 20px;
+}
+.search_txtbar{
+	display:inline-block;
+	background-color: f6f6f6;
+	border-radius: 24px;
+	border: 1px solid #f6f6f6;
+	background-color:  #f6f6f6;
+	padding: 12px 50px;
+	width: 36%;
+	margin-top: 8px;
+	font-size: 16px;
+	outline: none;
+	vertical-align: middle;
+}
+
+.sp_insert_nav{
+	position:absolute;
+	display:inline-block;
+	right: 86px;
+	height: 78px;
+	line-height: 66px;
+}
+.sp_insert_nav a{
+	font-size: 22px;
+	font-weight: 400;
+	color: #333;
+}
+.header img{
+	display:inline-block;
+	}
+.btn_menu{
+	position:absolute;
+	border: none;
+	background-color: inherit;
+	right:0;
+	padding: 18px 30px;
+	top: 8px;
+	
+}
+#icon_menu{
+	width: 28px;
+	cursor: pointer;
+}
+
+
+/* subheader */
+.subheader_wrap{
+	height: 70px;
+	width: 100%;
+	background-color: #704de4;
+	/* position: fixed; */
+	top:0;
+	min-width: 900px;
+	
+}
+.btn_back{
+	position:absolute;
+	border: none;
+	background-color: inherit;
+	left:0;
+	padding: 18px 30px;
+	top: 8px;
+}
+.subheader_wrap h2{
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/* footer */
+.footer_wrap{ 
+		position: relative;
+		padding: 50px 0;
+		background-color: #ebebeb;
+		color: #656565;
+	}
+.footer_width{
+	position: relative;
+	margin: 0 auto;
+	width: 1158px;
+}
+.footer_wrap a, .footer_wrap a:link, .footer_wrap a:visited{
+	color: #656565;
+}
+.top_area{
+	border-bottom: solid 1px solid #f6f6f6;
+	position: relative; 
+}
+.link_info{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+	margin:0;
+}
+.footer_logo{
+	font-size: 26px;
+	font-weight: 900;
+	color: #656565;
+	display: block;
+}
+
+.footer_wrap ul{
+	list-style: none;
+	display: block;
+	padding: 10px 0;
+}
+
+.footer_wrap li{
+	position: relative;
+	float: left;
+	margin-top: 6px;
+}
+.footer_wrap li:after{
+	content: "";
+	border-right: 1.5px solid #ccc;
+	margin: 0 10px;
+}
+.footer_wrap li:last-child:after, 
+.footer_wrap li:nth-child(5):after,
+.footer_wrap li:nth-child(8):after{
+	border-right: 0px;
+}
+
+.top_area{
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 20px;
+}
+.bottom_area{
+	padding-right: 280px;
+}
+.p_caution{
+	display: block;
+}
+.sns_list{
+	position: absolute;
+	top: 80px;
+	right: 0;
+}
+.company_info{
+	display: inline-block;
+	position: relative;
+}
+.company_info:after{
+	content: "";
+	clear: both;
+	display: table;s
+}
+.sp_icon img{
+	width: 36px;
+}
+.copyright{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #949494;
+}
+.copy_mobile{
+	display: none;
+}

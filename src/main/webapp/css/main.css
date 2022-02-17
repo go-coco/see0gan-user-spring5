@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body{
+	background-color: #fff;
+}
+.content_wrap{
+	background-color: #fff;
+}
+.main_wrap{
+	margin: 0 auto;
+	
+}
+.main_wrap h1{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900px;
+	margin: 0;
+}
+.main_wrap h2{
+	font-size: 32px;
+	text-align: center;
+	margin: 0;
+}
+.main_wrap h3{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 5px; 
+	color: #656565;
+}
+
+section{
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+.sp_type_wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	margin: 50px 200px 0 200px;
+}
+.sp_type_btn{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.sp_type_btn img{
+	display: block;
+	width: 116px;
+}
+.keyword{
+	text-align: center;
+	margin-top: 14px;
+	font-size: 18px;
+}
+/* 오늘 추천 공간 */
+
+.list_today_sp{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sp_list{
+	width: 360px;
+	margin-top: 20px;
+	border-bottom: 1px solid #ebebeb;
+}
+.sp_list_img{
+	height: 200px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.sp_list img{
+	width: 100%;
+	
+}
+.sp_info{
+	padding: 14px;
+	color: #656565;
+	font-size: 13px;
+}
+.sp_info_tit{
+	font-size: 22px;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+	margin: 6px 0;
+}
+.sp_tags{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.tag_area_name{
+	font-weight: bold;
+}
+.tag_area_name:before{
+	content:"";
+	background: url(/resources/icon/map.jpg) no-repeat;
+	display: inline-block;
+	width: 10px;
+	height:12px;
+	background-size: 100%;
+}
+.tag_area_name:after{
+	content:"";
+	border-right: 1.5px solid #ccc;
+	margin: 5px;
+}
+
+.sp_info_price_hour{
+	margin-top: 10px;
+	display: inline-block;
+	width: 59%;
+	
+}
+
+.price{
+	font-size: 20px;
+	color: #6d3afb;
+	font-weight: bolder;
+}
+.info_maxUser{
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	
+}
+.info_maxUser img{
+	width: 15px;
+}
+@media (max-width: 1254px) {
+	.sp_list{
+		margin: 20px;
+	}
+	.list_today_sp{
+		justify-content: center;
+	}
+	.main_wrap{
+		padding: 50px 0px;
+	}
+	.sp_type_wrap{
+		margin: 50px 20px;
+		justify-content: center;
+	}	
+}
+
+
+@media (min-width: 1254px) {
+	.main_wrap{
+		width: 1180px;
+		margin: 0 auto;
+	}
+}
